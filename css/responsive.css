@@ -75,6 +75,22 @@
 
 }
 
+@media (max-width: 767px) {
+
+    .contact-form .field-box {
+        width: 38rem;
+        gap: 1.2rem;
+    }
+
+    .contact-form .field-box textarea {
+        height: 14rem;
+    }
+
+    .contact-form .contact-btn .btn {
+        width: 38rem;
+    }
+}
+
 @media (max-width: 600px) {
     .resume,
     .portfolio {
@@ -88,6 +104,21 @@
 
     .contact {
         padding-top: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-form .field-box {
+        padding-top: 1rem;
+        gap: 1rem;
+    }
+
+    .contact-form .field-box input {
+        height: 5rem;
+    }
+
+    .contact-form .field-box textarea {
+        height: 14rem;
     }
 }
 
