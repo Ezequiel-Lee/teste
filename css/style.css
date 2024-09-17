@@ -71,7 +71,7 @@ p {
     border-radius: 5rem;
     z-index: 100;
     animation: animate-nav 1s ease-in-out backwards;
-    animation-delay: 3.5s;
+    animation-delay: 3.6s;
 }
 
 @keyframes animate-nav {

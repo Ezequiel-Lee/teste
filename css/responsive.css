@@ -77,6 +77,10 @@
 
 @media (max-width: 767px) {
 
+    .tab-list h3 {
+        font-size: 2rem;
+    }
+
     .contact-form .field-box {
         width: 38rem;
         gap: 1.2rem;
