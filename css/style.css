@@ -317,7 +317,7 @@ a:hover .tooltip,
 .resume,
 .portfolio {
     padding-top: 2rem;
-    padding-bottom: 24.3rem;
+    padding-bottom: 28rem;
 }
 
 .tab-box {
@@ -344,13 +344,17 @@ a:hover .tooltip,
     color: var(--main-color);
 }
 
-.resume-list:nth-child(2) {
+.resume-list {
+    justify-content: space-evenly;
+}
+
+/* .resume-list:nth-child(2) {
     justify-content: center;
 }
 
 .resume-list:nth-child(3) {
     justify-content: flex-end;
-}
+} */
 
 .tab-list h3 {
     font-size: 2.5rem;
@@ -450,9 +454,13 @@ a:hover .tooltip,
     margin-top: 0;
 }
 
-.portfolio-list:nth-child(2) {
-    justify-content: flex-end;
+.portfolio-list {
+    justify-content: space-evenly;
 }
+
+/* .portfolio-list:nth-child(2) {
+    justify-content: flex-end;
+} */
 
 .portfolio-box.work .portfolio-item {
     position: relative;
