@@ -432,7 +432,7 @@ a:hover .tooltip,
 }
 
 .resume-box.skills {
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     padding: 0 3px;
 }
 
@@ -442,7 +442,7 @@ a:hover .tooltip,
 
 /* i ou img */
 .resume-box.skills .resume-item img {
-    width: 8rem;
+    width: 5rem;
     transition: var(--transition-1);
 }
 
