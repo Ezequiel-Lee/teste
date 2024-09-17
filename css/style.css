@@ -19,6 +19,7 @@
     --main-color: #9061ff;
     --second-color: #6a57b8;
     --dark-purple: #221c3d;
+    --black-dark: #1b222e;
     --white-color: #fff;
     --tab-list-color: #7c8594;
     --placeholder-color: #7f8796;
@@ -67,7 +68,7 @@ p {
     transform: translateX(-50%);
     width: 40rem;
     padding: 2rem 0;
-    background-color: var(--nav-bg-color);
+    background-color: var(--black-dark);
     border-radius: 5rem;
     z-index: 100;
     animation: animate-nav 1s ease-in-out backwards;
